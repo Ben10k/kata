@@ -1,5 +1,6 @@
 package lt.taurosevicius.kata1;
 
+// https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b
 public class Dinglemouse {
 
     public static int[] humanYearsCatYearsDogYears(final int humanYears) {

@@ -2,7 +2,7 @@ package lt.taurosevicius.kata2;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class KataTest {
 
@@ -11,6 +11,7 @@ class KataTest {
         assertEquals("a", Kata.getMiddle("a"));
         assertEquals("I", Kata.getMiddle("I"));
     }
+
     @Test
     void dualCharTests() {
         assertEquals("an", Kata.getMiddle("an"));
@@ -18,13 +19,14 @@ class KataTest {
     }
 
     @Test
-    void unevenTest(){
+    void unevenTest() {
         assertEquals("b", Kata.getMiddle("abc"));
         assertEquals("c", Kata.getMiddle("abcde"));
 
     }
+
     @Test
-    void evenTest(){
+    void evenTest() {
         assertEquals("bc", Kata.getMiddle("abcd"));
         assertEquals("cd", Kata.getMiddle("abcdef"));
 

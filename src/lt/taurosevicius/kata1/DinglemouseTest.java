@@ -2,7 +2,7 @@ package lt.taurosevicius.kata1;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class DinglemouseTest {
 
@@ -44,9 +44,8 @@ class DinglemouseTest {
 
     @Test
     void humanYearsCatYearsDogYears10Test() {
-        assertArrayEquals(new int[]{10,56,64}, Dinglemouse.humanYearsCatYearsDogYears(10));
+        assertArrayEquals(new int[]{10, 56, 64}, Dinglemouse.humanYearsCatYearsDogYears(10));
     }
-
 
 
 }
