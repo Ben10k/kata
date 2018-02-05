@@ -26,7 +26,7 @@ public class Vowels {
     private static class VowelCounter {
         private final List<Character> vowels;
 
-        public VowelCounter(List<Character> vowels) {
+        private VowelCounter(List<Character> vowels) {
             this.vowels = vowels;
         }
 
